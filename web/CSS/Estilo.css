@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: Arial;
+	font-size: 40px;
+}
+h1{
+	color: gray;
+}
+h2{
+    font-family: Arial;
+    font-size: 20px
+}
+h2{
+    color: gray;
+}
+.menu{
+	width: 100%;
+	background: gray;
+	padding: 8px;
+	margin-top: 50px;
+}
+.menu{
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 15px;
+	position: relative;
+}
+
+.menu ul li a{
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: black
+}
+.menu ul{
+	padding: 0;
+}
+.menu ul ul{
+	display: none;
+}
+.menu ul li:hover > ul{
+	display: block;
+}
+.menu ul ul ul{
+	margin-bottom: 100%;
+	top:0px;
+	position: absolute;
+}
